@@ -1,0 +1,11 @@
+Local Machine:
+--------------
+
+git clone https://github.com/NubeEra-Samples/Docker-Java-Spring.git 
+cd Docker-Java-Spring
+
+mvn clean
+mvn package
+java -jar target\spring-boot-docker-0.0.1-SNAPSHOT.jar
+
+curl http://localhost:8080
